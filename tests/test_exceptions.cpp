@@ -7,6 +7,7 @@
 
 #include "doctest/doctest.h"
 #include "tdp/pipeline.hpp"
+#include <stdexcept>
 
 struct thrower {
   int count = 0;
